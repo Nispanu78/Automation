@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  This is some basic info about the whole suite
+Documentation  This is some basic info about the whole suite which have been committed to GitHub
 Resource  ../Resources/Common.robot  # for Setup & Teardown
 Resource  ../Resources/AmazonApp.robot  # for lower level keywords in test cases
 Test Setup  Common.Begin Web Test
