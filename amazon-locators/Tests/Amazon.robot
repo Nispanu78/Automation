@@ -16,7 +16,7 @@ ${LOGIN_PASSWORD} =  myPassword1
 
 *** Test Cases ***
 Should be able to login
-    [Tags]  login
+    [Tags]  login  credentials
     AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
 
 Logged out user should be able to search for products
