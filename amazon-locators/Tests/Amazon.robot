@@ -20,7 +20,7 @@ Should be able to login
     AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
 
 Logged out user should be able to search for products
-    [Tags]  search
+    [Tags]  search  product
     AmazonApp.Search for Products  ${SEARCH_TERM}
 
 Search results page should contain product
